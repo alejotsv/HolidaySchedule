@@ -17,4 +17,10 @@ public class HolidaySchedule {
     public void addHoliday(int dayToAdd){
         sked.set(dayToAdd);
     }
+
+    public boolean isHoliday(int day){
+        return sked.get(day);
+    }
+
+
 }
