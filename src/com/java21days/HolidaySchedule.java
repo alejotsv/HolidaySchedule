@@ -22,5 +22,8 @@ public class HolidaySchedule {
         return sked.get(day);
     }
 
+    public static void main(String[] args) {
+        HolidaySchedule schedule = new HolidaySchedule();
 
+    }
 }
