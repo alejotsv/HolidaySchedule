@@ -24,6 +24,6 @@ public class HolidaySchedule {
 
     public static void main(String[] args) {
         HolidaySchedule schedule = new HolidaySchedule();
-
+        System.out.println(schedule.isHoliday(400000));
     }
 }
